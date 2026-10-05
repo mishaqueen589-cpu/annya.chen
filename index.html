@@ -56,10 +56,15 @@
 
     <div class="frame">
         <div class="video-wrap" id="videoWrap">
-          <video id="birthdayVideo" controls playsinline preload="metadata">
-    <source src="video/birthday-video.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-</video>
+            <video id="birthdayVideo"
+                   controls
+                   playsinline
+                   webkit-playsinline
+                   preload="metadata"
+                   controlslist="nodownload">
+                <source src="video/birthday-video.mp4" type="video/mp4">
+                Your browser does not support video.
+            </video>
 
             <button type="button" class="fullscreen-btn" id="fullscreenBtn"
                     aria-label="Play video fullscreen" title="Fullscreen">
@@ -68,7 +73,7 @@
         </div>
     </div>
 
-    <p class="note">Add your video as <b>video/birthday-video.mp4</b>.</p>
+    <p class="note">Tap play to watch your birthday video. ✨ Use the Fullscreen button for a bigger view.</p>
 </section>
 
 <section class="final">
