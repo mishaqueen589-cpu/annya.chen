@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#070707">
+<title>Happy Birthday Anny ✨</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<section class="hero">
+    <div class="sticker a">✦</div>
+    <div class="sticker b">♡</div>
+    <div class="sticker c">🎂</div>
+
+    <div class="hero-content">
+        <p class="eyebrow">A LITTLE BIRTHDAY NOTE</p>
+        <h1>Happy Birthday,<br><span>Anny</span> ✨</h1>
+        <p class="hero-text">Today is your day — a little reminder of how special you are.</p>
+        <div class="line"></div>
+        <button type="button" onclick="go('wishes')">Read Your Wishes ✨</button>
+    </div>
+
+    <div class="scroll">↓ scroll down ↓</div>
+</section>
+
+<section class="section" id="wishes">
+    <p class="eyebrow">01 — BIRTHDAY WISHES</p>
+    <h2>For You, Anny 💛</h2>
+    <p class="intro">May this new year of your life be softer, brighter and full of beautiful moments.</p>
+
+    <div class="grid">
+        <article>
+            <span>✦</span>
+            <h3>Happiness</h3>
+            <p>May your days be filled with real smiles and little reasons to be happy.</p>
+        </article>
+        <article>
+            <span>♡</span>
+            <h3>Success</h3>
+            <p>May every dream you work for slowly become something you can call yours.</p>
+        </article>
+        <article>
+            <span>☼</span>
+            <h3>Beautiful Days</h3>
+            <p>May this year bring you memories you will always want to keep.</p>
+        </article>
+    </div>
+</section>
+
+<section class="section video-section">
+    <p class="eyebrow">02 — A LITTLE VIDEO</p>
+    <h2>A Little Something For You 🎬</h2>
+    <p class="intro">Press play and enjoy your little birthday video. 💛</p>
+
+    <div class="frame">
+        <div class="video-wrap" id="videoWrap">
+            <video id="birthdayVideo"
+                   controls
+                   playsinline
+                   webkit-playsinline
+                   preload="metadata"
+                   controlslist="nodownload">
+                <source src="video/birthdayvideo.mp4" type="video/mp4">
+                Your browser does not support video.
+            </video>
+
+            <button type="button" class="fullscreen-btn" id="fullscreenBtn"
+                    aria-label="Play video fullscreen" title="Fullscreen">
+                ⛶ <span>Fullscreen</span>
+            </button>
+        </div>
+    </div>
+
+    <p class="note">Add your video as <b>video/birthday-video.mp4</b>.</p>
+</section>
+
+<section class="final">
+    <div class="stars">✦ ✧ ✦ ✧ ✦</div>
+    <h2>Keep Shining, Anny ✨</h2>
+    <p>Happy Birthday once again! May your smile always have a reason behind it. 🖤</p>
+    <button type="button" onclick="hearts(30)">For Anny 💛</button>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
